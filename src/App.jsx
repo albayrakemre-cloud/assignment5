@@ -12,6 +12,7 @@ function App() {
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
       <h1>React Product Dashboard</h1>
+      <p style={{ color: '#666', fontStyle: 'italic' }}>Welcome to your simple product management panel.</p> {/* about */}
 
       <div style={{ marginBottom: '15px' }}>
         <label htmlFor="nameInput" style={{ marginRight: '10px' }}>Name:</label>
